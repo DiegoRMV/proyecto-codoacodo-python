@@ -12,14 +12,13 @@ main {
 
 .portada__container {
 	position: relative;
-	
 }
 
 .portada-main {
 	position: relative;
 	width: 100%;
 	z-index: 10;
-    padding: 1.5rem 2.5rem;
+	padding: 1.5rem 2.5rem;
 }
 
 .portada-main h1 {

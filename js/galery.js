@@ -118,24 +118,21 @@ const classBento = [
 	"gallery-article-6",
 ];
 
-const card = (img, classBento) =>
+const card = (urlImage, classBento) =>
 	`<article class="gallery-article ${classBento}">
-    <div
-        class="gallery-card"
-        data-bs-toggle="modal"
-        data-bs-target="#exampleModal"
-    >
-        <div class="card-image-content">
-            <img src=${img} />
-        </div>
-    </div>
-</article>
+    	<div
+        	class="gallery-card"
+        	data-bs-toggle="modal"
+        	data-bs-target="#exampleModal"
+		>
+        	<div class="card-image-content">
+            	<img src=${urlImage} />
+        	</div>
+    	</div>
+	</article>`;
 
-`;
 
 const galleryContainer = document.querySelector(".gallery-container");
-
-console.log(galleryContainer);
 
 let cont = 0;
 data.forEach((element) => {
@@ -143,6 +140,6 @@ data.forEach((element) => {
 	if (cont === 5) {
 		cont = 0;
 	} else {
-		cont = cont + 1;
+		cont++;
 	}
 });
