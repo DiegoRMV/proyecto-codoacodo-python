@@ -2,6 +2,8 @@
 
 ## <ul align="center"> <picture><img  src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width=50px></picture> Página Turistica 😈🤝</ul>
 
+#### Pagina Web Turistica que ofrece informacion de los distintos lugares turisticos de la Argentina
+
 <picture>
     <img align="right" alt="GIF" height="280px" src="https://media.giphy.com/media/Ah3zHH7hvsSB2/giphy.gif?raw=true" />
 </picture>
