@@ -8,10 +8,13 @@
 
 main {
 	background: rgb(0, 26, 34);
+	display: flex;
+	flex-direction: column;
 }
 
 .portada__container {
 	position: relative;
+	padding: 1rem;
 }
 
 .portada-main {
@@ -53,18 +56,17 @@ main {
 	font-size: 1rem;
 }
 
-.read-more-container {
-	display: flex;
-	justify-content: center;
-}
-
 .read-more-container a {
+	position: absolute;
+	bottom: -15px;
+	left: 40px;
 	padding: 0.5rem 1rem;
 	font-weight: 700;
 	text-decoration: none;
 	background-color: var(--yellow);
 	color: black;
 	transition: all 0.5s ease;
+	z-index: 10;
 }
 
 .read-more-container a:hover {
@@ -76,6 +78,10 @@ main {
 	position: absolute;
 	right: 0;
 	top: 0;
+}
+
+.image-container {
+	position: relative;
 }
 
 .image-container img {
@@ -101,6 +107,7 @@ main {
 	.portada-main {
 		display: flex;
 		flex-direction: column;
+		padding: 1rem;
 	}
 
 	.portada-image {
@@ -110,5 +117,13 @@ main {
 	.image-container img {
 		max-width: 100vw;
 		height: auto;
+	}
+
+	.read-more-container {
+		display: flex;
+		justify-content: center;
+	}
+	.read-more-container a {
+		position: static;
 	}
 }
