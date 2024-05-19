@@ -29,23 +29,23 @@ function updateImage() {
 
     switch(destination) {
         case "mendoza":
-            image.src = "Mendoza.jpg";
+            image.src = "../assets/images/Mendoza.jpg";
             image.alt = "Imagen de Mendoza";
             break;
         case "cordoba":
-            image.src = "Cordoba.jpg";
+            image.src = "../assets/images/Cordoba.jpg";
             image.alt = "Imagen de Córdoba";
             break;
         case "tierra":
-            image.src = "Ushuaia.jpg";
+            image.src = "../assets/images/Ushuaia.jpg";
             image.alt = "Imagen de Tierra de Fuego";
             break;
         case "misiones":
-            image.src = "Iguazu.jpg";
+            image.src = "../assets/images/Iguazu.jpg";
             image.alt = "Imagen de Misiones";
             break;
         default:
-            image.src = "Mendoza.jpg";
+            image.src = "../assets/images/Mendoza.jpg";
             image.alt = "Imagen Turística";
             break;
     }

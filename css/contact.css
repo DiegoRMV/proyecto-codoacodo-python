@@ -89,15 +89,17 @@
 /* Estilos para la imagen descriptiva */
 .image-column {
 	width: 68%;
+	max-height: 480px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
     padding-left: 1.5rem;
+	overflow: hidden;
 }
 
 .image-column img {
     width: 100%;
-    object-fit: fill;
+    object-fit: contain;
 }
 
 /* Estilos responsivos para pantallas de tamaño mediano (tabletas) */
