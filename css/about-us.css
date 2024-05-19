@@ -62,7 +62,7 @@ p {
 }
 
 .equipo a:visited {
-	color: blue;
+	color: none;
 }
 
 .equipo a:active {
