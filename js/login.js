@@ -46,6 +46,11 @@ const inputValidate = (expresion, input, group) => {
 	}
 };
 
+inputs.forEach((input) => {
+	input.addEventListener("keyup", formValidate);
+	input.addEventListener("blur", formValidate);
+});
+
 form.addEventListener("submit", (e) => {
 	e.preventDefault();
 	const terms = document.getElementById("terms");

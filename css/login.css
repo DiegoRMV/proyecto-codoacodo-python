@@ -23,6 +23,8 @@ main {
 	color: #fff;
 	padding: 0;
 	text-align: center;
+	font-weight: 800;
+	font-size: 2.2rem;
 }
 
 .form-group-label {
@@ -34,22 +36,22 @@ main {
 }
 
 .form-group-label-register {
-    text-align: center;
+	text-align: center;
 	display: block;
 	padding: 10px;
 	cursor: pointer;
 	color: #fff;
-    font-size: .8rem;
+	font-size: 0.8rem;
 }
 
 .form-group-link-register {
-    font-weight: 700;
-    text-decoration: none;
-    color: rgb(0, 255, 242);
+	font-weight: 700;
+	text-decoration: none;
+	color: rgb(0, 255, 242);
 }
 .form-group-link-register:hover {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
+	text-decoration: none;
+	color: rgb(255, 255, 255);
 }
 
 .form-group-label-check {
@@ -94,6 +96,58 @@ main {
 
 .form-group-btn-send:hover {
 	box-shadow: 3px 0 30px rgba(163, 163, 163, 1);
+}
+
+.form-group-errorText {
+	text-wrap: wrap;
+	font-size: 12px;
+	margin-bottom: 0;
+	display: none;
+	margin-top: 10px;
+	color: #ff0000;
+}
+
+.form-group-errorText-active {
+	display: block;
+}
+
+.form-messaje-error,
+.form-messaje-done {
+	height: 45px;
+	line-height: 45px;
+	padding: 0 15px;
+	border-radius: 3px;
+	display: none;
+	color: #2d2d2d;
+}
+
+.form-messaje-error {
+	background: #f66060;
+}
+
+.form-messaje-done {
+	background: #0ab210;
+}
+
+.form-messaje-done-active,
+.form-messaje-error-active {
+	display: block;
+}
+
+.form-group-error .form-group-label {
+	color: #ff0000;
+}
+
+.form-group-error .form-group-input {
+	border: 3px solid #ff0000;
+}
+
+.form-group-done .form-group-label {
+	color: #fff;
+}
+
+.form-group-done .form-group-input {
+	border: 3px solid #0ab210;
 }
 
 @media screen and (max-width: 768px) {

@@ -57,19 +57,20 @@ p {
 	transition: all 0.5s ease;
 }
 
-.equipo a:link {
-	color: rgb(255, 71, 71);
-}
-
-.equipo a:visited {
-	color: none;
-}
-
+.equipo a,
+.equipo a:visited,
 .equipo a:active {
-	background-color: red;
-	color: white;
+	text-decoration: none;
 }
 
-.equipo a:link:hover {
-	color: black;
+.equipo a {
+	color: red;
+	font-size: 1.2rem;
 }
+.equipo a:hover {
+	color: black;
+	font-size: 1.2rem;
+}
+
+
+
